@@ -184,7 +184,7 @@ main{
 .container_set{
   width: 255px;
   height: 363px;
-  background:white;
+  background:#92ACC5;
   display: grid;
   grid-column-gap: 10px;
 }
@@ -248,7 +248,7 @@ main{
   grid-gap: 20px;
   width: 540px;
   height: 212px;
-  background: #F13C6E;
+  background:#597897 ;
 }
 .container_two_title{
   font-size: 18px;
