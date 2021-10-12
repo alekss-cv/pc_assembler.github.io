@@ -51,7 +51,8 @@ body{
   line-height: 16px;
 }
 .block_all_nav_2{
-  background:url("img/bgc.png")no-repeat;
+  background:url("img/bgc.png");
+  
 }
 .block_nav_2{
   display:flex;
@@ -67,13 +68,13 @@ body{
   background: #EFEFEF;
   border-radius: 25px;
 }
-.Vector{
+
+.found{
   background: url("img/Vector.svg") no-repeat;
   width: 20px;
   height: 19.09px;
-  z-index: 3;
-  position: relative;
-  left:100px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .phone{
 font-size: 16px;
@@ -171,6 +172,7 @@ font-size: 24px;
 font-weight: 700;
 line-height: 28px;
 text-align: left;
+color:white;
 
 }
 .main_content{
@@ -190,12 +192,30 @@ main{
 }
 .set_img{
   padding-top: 100px;
-  background: url("img/set.png") no-repeat;
-  height: 166px;
-  width: 125px;
+
   text-align: center;
   display:block;
   margin:auto;
+}
+.set_1{
+  background: url("img/graphic_card.png") no-repeat;
+  height: 134px;
+  width: 166px;
+}
+.set_2{
+  background: url("img/mainboard166.png") no-repeat;
+  height: 141px;
+  width: 166px;
+}
+.set_3{
+  background: url("img/imagePC166.png") no-repeat;
+  height: 166px;
+  width: 166px;
+}
+.set_4{
+  background: url("img/blok-pitaniya166.png") no-repeat;
+  height: 143px;
+  width: 166px;
 }
 .container_text{
   font-size: 14px;
