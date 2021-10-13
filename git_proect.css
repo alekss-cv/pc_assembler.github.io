@@ -52,7 +52,7 @@ body{
 }
 .block_all_nav_2{
   background:url("img/bgc.png");
-  
+
 }
 .block_nav_2{
   display:flex;
@@ -85,11 +85,16 @@ line-height: 19px;
   height: 40px;
   width: 170px;
   border-radius: 25px;
-  border: 3px solid #597897;
+  border: 1.5px solid #F13C6E;
+  background: #597897;
+}
+.button_phone:hover{
+  border: 3px solid black;
 }
 .button_phone_text{
 font-size: 14px;
 line-height: 16px;
+color:white;
 }
 .beauty{
   width: 158px;
@@ -136,14 +141,20 @@ font-weight: 700;
 line-height: 56px;
 text-align: left;
 color: white;
-padding-bottom: 4%
+padding-bottom: 4%;
+
+}
+.big_p_h2{
+  box-shadow: 0px 3px 5px 1px black;
+  padding: 5px 5px;
 }
 .p_text_bcg{
-font-size: 14px;
-line-height: 20px;
-text-align: left;
-color:white;
-padding-bottom: 4%
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  color:white;
+  padding-bottom: 3%;
+  font-weight: bolder;
 }
 .bcg_button{
   width: 170px;
@@ -160,7 +171,7 @@ line-height: 16px;
 }
 
 .img_bcg{
-  background: url("img/nout.jpeg") no-repeat;
+  background: url("img/nout_original.jpeg") no-repeat;
   background-size:cover;
   background-position: 0 0;
   max-height: 604px;
@@ -231,7 +242,7 @@ main{
 
 }
 .button_set{
-  background: #F13C6E;
+  background: #48617A;
   width: 130px;
   height: 35px;
   border-radius: 30px;
@@ -240,10 +251,15 @@ main{
   margin-top:-10px;
 }
 .button_set_text{
+  padding-top:5%;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
   color:white;
+  border: 2px solid #F13C6E;
+  width: 130px;
+  height: 35px;
+  border-radius: 30px;
 }
 .container_set_all{
   display: grid;
@@ -297,7 +313,7 @@ main{
 .button_car{
   width: 170px;
   height: 35px;
-  background: #F13C6E;
+  background: #597897;
   border: 2px solid #FFFFFF;
   border-radius: 30px;
 }
