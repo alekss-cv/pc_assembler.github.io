@@ -45,6 +45,9 @@ body{
   color:black;
   text-decoration:none;
 }
+.nav_list_1 a:hover{
+  color:#323232;
+}
 .li_nav_1{
   padding: 0 15px;
   font-size: 14px;
@@ -85,11 +88,11 @@ line-height: 19px;
   height: 40px;
   width: 170px;
   border-radius: 25px;
-  border: 1.5px solid #F13C6E;
+  border: 2px solid #78A3AD;
   background: #597897;
 }
 .button_phone:hover{
-  border: 3px solid black;
+  background: #2A3847;
 }
 .button_phone_text{
 font-size: 14px;
@@ -121,6 +124,9 @@ hr{
   color:white;
   text-decoration: none;
 }
+.block_nav_3 a:hover{
+  color:#B8B8B8;
+}
 .nav_item{
 font-size: 16px;
 line-height: 19px;
@@ -142,11 +148,17 @@ line-height: 56px;
 text-align: left;
 color: white;
 padding-bottom: 4%;
-
 }
-.big_p_h2{
-  box-shadow: 0px 3px 5px 1px black;
-  padding: 5px 5px;
+.big_p_h21{
+  box-shadow: -4px -1px 5px 1px black;
+  padding: 3px 5px;
+  background-color:rgba(0,0,0,.1);
+  border-radius: 0px 0px 0px 0;
+}
+.big_p_h22{
+  box-shadow: -4px 4px 6px 1px black;
+  padding: 0px 5px 5px 5px;
+  background-color:rgba(0,0,0,.1);
 }
 .p_text_bcg{
   font-size: 14px;
@@ -157,13 +169,17 @@ padding-bottom: 4%;
   font-weight: bolder;
 }
 .bcg_button{
-  width: 170px;
+  width: 140px;
   height: 40px;
   border:2px solid black;
-  border-radius: 25px;
+  border-radius: 5px;
   background: #597897;
   color: white;
   margin-bottom: 150px;
+}
+.bcg_button:hover{
+  border:2.5px solid black;
+  background: #4A637D;
 }
 .button_bcg_text{
 font-size: 14px;
@@ -250,13 +266,15 @@ main{
   margin: auto;
   margin-top:-10px;
 }
+.button_set:hover{
+  background: #232F3B;
+}
 .button_set_text{
-  padding-top:5%;
+  padding-top:7%;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
   color:white;
-  border: 2px solid #F13C6E;
   width: 130px;
   height: 35px;
   border-radius: 30px;
@@ -317,6 +335,9 @@ main{
   border: 2px solid #FFFFFF;
   border-radius: 30px;
 }
+.button_car:hover{
+  background: #3B5065;
+}
 .button_car_text{
 font-size: 14px;
 line-height: 16px;
@@ -335,7 +356,7 @@ color:white;
   justify-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-row-gap: 1px;
+  grid-row-gap: 3px;
 }
 .block_impuls{
   display: flex;
@@ -343,12 +364,27 @@ color:white;
   align-items: center;
   height: 122px;
   width: 276px;
-  background:white;
+  background:#597897;
 }
 .impuls_svg{
-  background: url("img/impuls.svg") no-repeat;
-  height: 49px;
-  width: 149px;
+  background: url("img/jpg_pc1.jpg") no-repeat;
+  height: 120px;
+  width: 272px;
+}
+.impuls_svg1{
+  background: url("img/cyber.jpg") no-repeat;
+  height: 120px;
+  width: 272px;
+}
+.impuls_svg2{
+  background: url("img/purpurpc.jpg") no-repeat;
+  height: 118px;
+  width: 273px;
+}
+.impuls_svg3{
+  background: url("img/redpc.jpg") no-repeat;
+  height: 120px;
+  width: 272px;
 }
 footer{
 
@@ -369,12 +405,19 @@ footer{
 .footer_nav_display{
   padding-right:30px;
 }
+.footer_nav_color{
+  background: #111111;
+}
 .footer_nav_title{
 margin-top: 23%;
 margin-bottom: 6%;
 font-size: 16px;
 font-weight: 500;
 line-height: 23px;
+color: white;
+}
+.footer_two_color{
+  background:#1C1C1C;
 }
 .border_long{
   margin-bottom: 5%;
@@ -388,6 +431,9 @@ line-height: 23px;
   line-height: 28px;
   color:#828282;
 }
+.footer_nav_text a:hover{
+  color:#A0A0A0;
+}
 .border_long{
   border: 1px solid #EFEFEF;
 }
@@ -395,6 +441,7 @@ address{
 font-size: 14px;
 line-height: 16px;
 text-align: center;
+color: white;
 }
 .footer_display{
   padding-top: 3%;
@@ -439,36 +486,44 @@ text-align: center;
   width: 22.18px;
   height:22px;
   position: relative;
-  left:25.8%;
-  top:25%;
+  left:24.65%;
+  top:24.5%;
 }
 .footer_svg{
-  border:1px solid red;
+  border:1px solid #48617A;
   width: 45px;
   height:45px;
   border-radius: 100%;
   position: relative;
-
+}
+.footer_svg:hover{
+  border:1px solid red;
 }
 .footer_phone{
   font-size: 16px;
   line-height: 19px;
   text-align: left;
+  color:white;
 
 }
 .footer_button{
   height: 40px;
   width: 170px;
   border-radius: 40px;
-  border:1px solid #F13C6E;
+  border:3px solid #597897;
+  background: #1C1C1C;
 
+}
+.footer_button:hover{
+  background: #151515;
 }
 .footer_button_text{
 font-size: 14px;
 line-height: 16px;
+color:white;
 }
 .footer_last_block{
-  background: #EFEFEF;
+  background: #323232;
   padding-top: 25px;
   padding-bottom:25px;
 }
