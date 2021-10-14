@@ -217,6 +217,9 @@ main{
   display: grid;
   grid-column-gap: 10px;
 }
+.container_set:hover{
+  box-shadow: 3px 4px 5px #597897;
+}
 .set_img{
   padding-top: 100px;
 
@@ -366,25 +369,53 @@ color:white;
   width: 276px;
   background:#597897;
 }
+.block_impuls:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 212px;
+  width: 402px;
+  background:#597897;
+}
 .impuls_svg{
   background: url("img/jpg_pc1.jpg") no-repeat;
   height: 120px;
   width: 272px;
+}
+.impuls_svg:hover{
+  background: url("img/jpg_pc1326.jpg") no-repeat;
+  height: 210px;
+  width: 400px;
 }
 .impuls_svg1{
   background: url("img/cyber.jpg") no-repeat;
   height: 120px;
   width: 272px;
 }
+.impuls_svg1:hover{
+  background: url("img/cyber.jpg") no-repeat;
+  height: 210px;
+  width: 400px;
+}
 .impuls_svg2{
   background: url("img/purpurpc.jpg") no-repeat;
   height: 118px;
   width: 273px;
 }
+.impuls_svg2:hover{
+  background: url("img/purpurpc.jpg") no-repeat;
+  height: 210px;
+  width: 400px;
+}
 .impuls_svg3{
   background: url("img/redpc.jpg") no-repeat;
   height: 120px;
   width: 272px;
+}
+.impuls_svg3:hover{
+  background: url("img/redpc400.jpg") no-repeat;
+  height: 210px;
+  width: 400px;
 }
 footer{
 
