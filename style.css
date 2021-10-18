@@ -1046,7 +1046,8 @@ padding-top: 5% ;
     max-height:30px;
   }
   .img_all{
-    margin-top: 10%;
+    margin-top: 16% ;
+    margin-bottom: 3%;
     justify-items: center;
     display: grid;
     grid-template-columns: 1fr ;
